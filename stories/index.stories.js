@@ -12,7 +12,12 @@ export default {
   },
 };
 
-function Template({ cardTitle = 'Hello world', description = 'Lorem Ipsum', hasImage, imageUrl}) {
+function Template({
+  cardTitle = 'Hello world',
+  description = 'Lorem Ipsum',
+  hasImage,
+  imageUrl,
+}) {
   return html`
     <lotus-card
       card-title=${cardTitle}
@@ -28,6 +33,7 @@ export const Default = Template.bind({});
 
 export const WithImage = Template.bind({});
 WithImage.args = {
-  imageUrl:'https://res.cloudinary.com/ddfoio9j1/image/upload/v1677799818/DevPortfolio/nasa-yZygONrUBe8-unsplash-2_kgcioe.jpg',
-  hasImage:true
-}
+  imageUrl:
+    'https://res.cloudinary.com/ddfoio9j1/image/upload/v1677799818/DevPortfolio/nasa-yZygONrUBe8-unsplash-2_kgcioe.jpg',
+  hasImage: true,
+};

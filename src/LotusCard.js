@@ -9,7 +9,7 @@ export class LotusCard extends LitElement {
 
   static get properties() {
     return {
-      cardTitle: { type: String, attribute: 'card-title'},
+      cardTitle: { type: String, attribute: 'card-title' },
       description: { type: String },
       imageUrl: { type: String },
       hasImage: { type: Boolean },

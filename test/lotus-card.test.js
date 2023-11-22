@@ -28,9 +28,10 @@ describe('LotusCard', () => {
         expect(image).to.equal(null);
       });
 
-      it('Image displayed', async() => {
+      it('Image displayed', async () => {
         el.hasImage = true;
-        el.imageUrl = 'https://res.cloudinary.com/ddfoio9j1/image/upload/v1677799818/DevPortfolio/nasa-yZygONrUBe8-unsplash-2_kgcioe.jpg';
+        el.imageUrl =
+          'https://res.cloudinary.com/ddfoio9j1/image/upload/v1677799818/DevPortfolio/nasa-yZygONrUBe8-unsplash-2_kgcioe.jpg';
         await el.updateComplete;
         const image = el.shadowRoot?.querySelector('img');
         expect(image).not.to.be.null;
