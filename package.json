@@ -2,7 +2,7 @@
   "name": "lotus-card",
   "description": "Webcomponent lotus-card following open-wc recommendations",
   "license": "MIT",
-  "author": "lotus-card",
+  "author": "ManuMxrales",
   "version": "0.1.0",
   "main": "index.js",
   "module": "index.js",
