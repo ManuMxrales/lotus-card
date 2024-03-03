@@ -22,7 +22,7 @@ export default css`
   .content {
     max-height: 300px;
     overflow-y: auto;
-    word-wrap: break-word;
+    word-wrap: var(--content-word-wrap, anywhere);
     display: flex;
     flex-direction: var(--content-flex-direction, column);
     align-items: var(--content-align-items, center);
